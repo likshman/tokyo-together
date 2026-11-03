@@ -1,2 +1,16 @@
+# Link-preview bots (WhatsApp, Viber, Messenger, Telegram, etc.) may read pages
+User-agent: facebookexternalhit
+User-agent: Facebot
+User-agent: WhatsApp
+User-agent: Viber
+User-agent: TelegramBot
+User-agent: Twitterbot
+User-agent: Slackbot-LinkExpanding
+User-agent: LinkedInBot
+User-agent: Discordbot
+User-agent: Applebot
+Allow: /
+
+# Everyone else (search engines): stay out
 User-agent: *
 Disallow: /
